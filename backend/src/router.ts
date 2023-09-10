@@ -8,4 +8,4 @@ const apiRoutes = require('./api/APIRoutes');
 // router.use(frontendRoutes);
 router.use('/api', apiRoutes);
 
-module.exports = router;
+export default router;
